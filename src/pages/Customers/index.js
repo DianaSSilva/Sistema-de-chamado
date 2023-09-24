@@ -23,6 +23,8 @@ export default function Customers() {
                 cnpj: cnpj,
                 endereco: endereco
             })
+
+            // limpar os dados do site e voltar para vazio 
                 .then(() => {
                     setNome('')
                     setCnpj('')
